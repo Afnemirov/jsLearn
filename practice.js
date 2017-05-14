@@ -1,5 +1,6 @@
-var input = prompt("Please type a number");
-var topNumber = parseInt(input);
-var randomNumber = Math.floor(Math.random() * topNumber) + 1;
-var message = "<h2>" + randomNumber + " is a number between 1 and " + topNumber + ".</h2>";
-document.write(message);
+var answer = prompt('What programming language is the name of a gem?');
+if ( answer === 'Ruby') {
+  document.write("<h2>That's right</h2>");
+} else {
+  document.write("<h2>Sorry, that's wrong!</h2>");
+}
